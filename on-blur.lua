@@ -6,7 +6,9 @@ if (get_window_property("_NET_WM_STATE") ~= "") then
 		or string.match(win_name, "FBReader")
 		or string.match(win_name, "Tor Browser")
 		or string.match(win_name, "draw.io")
+		or string.match(win_name, "PyCharm")
 		or string.match(win_name, "PhpStorm")
+		or string.match(win_name, "WebStorm")
 	) then
 		opacity = 0.8 
 	end
