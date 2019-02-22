@@ -9,6 +9,7 @@ if (get_window_property("_NET_WM_STATE") ~= "") then
 		or string.match(win_name, "PyCharm")
 		or string.match(win_name, "PhpStorm")
 		or string.match(win_name, "WebStorm")
+		or string.match(win_name, "VirtualBox")
 	) then
 		opacity = 0.8 
 	end
