@@ -15,6 +15,8 @@ if (get_window_property("_NET_WM_STATE") ~= "") then
 		or string.match(win_name, "PyCharm")
 		or string.match(win_name, "PhpStorm")
 		or string.match(win_name, "WebStorm")
+		or string.match(win_name, "IntelliJ IDEA")
+		or string.match(win_name, "GoLand")
 	) then
 		opacity = 0.89
 	end
